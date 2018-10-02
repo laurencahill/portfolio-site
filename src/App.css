@@ -2,8 +2,22 @@
   text-align: center;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+
 .nav-style {
   text-align: right;
+  margin: 10px;
 }
 
 .nav-style li {
@@ -14,4 +28,12 @@
 
 .nav-style a {
   text-decoration: none;
+}
+
+.page-content {
+  margin: 150px;
+}
+
+.testimoinals {
+  margin: 25px;
 }

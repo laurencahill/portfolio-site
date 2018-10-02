@@ -3,6 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
+
+<div className="nav">
+<div clasName="logo">
+<h3>LAUREN CAHILL</h3>
+</div>
+
 <nav className="nav-style">
     <ul>
         <li>
@@ -19,6 +25,7 @@ const Navbar = () => {
         </li>
     </ul>
 </nav>
+</div>
   )
 }
 
